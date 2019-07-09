@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Keinath Amin, IS117-041, Summer 2019 --!>
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slicknav.css">
+    <link rel="stylesheet" href="events.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+<header>
+    <img src="bigstock-Vector-Logo-Design-Template-Wi-119284142.jpg" alt="Charity Logo" height="150">
+    <center><h1>Events of the Month<span class="shadow"></span></h1></center>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<style>
+    .navbar {
+        overflow: hidden;
+        background-color: teal;
+        font-family: "Times New Roman";
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+        background-color: teal;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: teal;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px teal;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .show {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="commitments.html">Commitments</a>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">About Us
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="ourstory.html">Our Story</a>
+            <a href="references.html">References</a>
+        </div>
+    </div>
+    <a href="contactus.html">Contact Us</a>
+</div>
+
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+</script>
+<br>
+<br>
+<br>
+
+<body>
+<center><h1>July 2019 </h1>
+    <article>
+        <img src="world-charity-day-background-of-hands-with-a-heart_23-2147665869.jpg" alt="World Charity Day">
+        <br>
+        <br>
+        <br>
+
+        <h3>New York City Summer Cleanup</h3>
+        <p>Help clean up the beautiful city that some of us call home, and for those who visit from far away.</p>
+        <p>Jul 12th: 3:00 pm – 6:00 pm <br>
+            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x89c268bb43fcf17b:0xbe7c57a93aa817fe?sa=X&ved=0ahUKEwiCvZWtjKjjAhWmTt8KHQ3CAwwQqJACCEEwAQ">Beach: 32nd Street, Queens, NY</a></p>
+<br>
+        <h3>Disability Pride Parade</h3>
+        <p>Celebrate unity! Encourage others and yourself in celebrating togetherness and unity. </p>
+        <p>July 14th & July 15th : 10:00 am <br>
+            <a href="https://www.google.com/maps/place/Madison+Square+Park/@40.7426039,-73.9899641,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a6bd917da7:0x79997d3983197d7c!8m2!3d40.7425999!4d-73.9877701">Madison Square Park</a></p>
+<br>
+        <h3>NFLPA Drug Free World Top Gold Fundraiser</h3>
+        <p>Help encourage children and young adults to stay away from harmful drugs.</p>
+        <p>July 14th : 4:00 pm <br>
+            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x89c3c83197993bb5:0x2a5df13c651c084a?sa=X&ved=0ahUKEwji4tnUiqjjAhXoguAKHaF2APgQqJACCLcBMAQ">Top Golf</a></p>
+<br>
+        <h3>Inaugural Hudson Regional Hospital Foundation Golf Outing</h3>
+        <p>Preserve the right to healthcare, make a difference by prioritizing healthcare and the right and accessibility to it.</p>
+        <p>July 15th : 11:00 am - 10:00 pm <br>
+            <a href="https://www.google.com/maps/place/Alpine+Country+Club+Main+Clubhouse/@40.952491,-73.9500733,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2ee1b46515839:0xead6fb9677caacf2!8m2!3d40.952491!4d-73.9478846">Alpine Country Club Main Clubhouse</a></p>
+<br>
+        <h3>American Red Cross of Greater NY-Orientation Session</h3>
+        <p>The American Red Cross had led a legacy and established a foundation for years. Help maintain this upstanding and encourage others to join.</p>
+        <p>July 31st: 6:00 pm – 7:30 pm <br>
+            <a href="https://www.google.com/maps/place/American+Red+Cross+Greater+New+York/@40.7644482,-73.9955851,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2585030aa9f29:0xab71cee5daae1b86!8m2!3d40.7644442!4d-73.9933911">American Red Cross, NY</a></p>
+
+    </article></center>
+
+
+</body>
+
+<center><footer>
+    <br>
+    <br>
+    <br>
+    <p>&copy; 2019, Keinath Amin --------- Terms of Service --------- Privacy Policy, NJIT </p>
+</footer></center>
+
+</html>

@@ -1,0 +1,101 @@
+/* DEVELOPER: Keinath Amin, IS117-041, Summer 2019 */
+/* the styles for the elements */
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 100%;
+    background-color: mintcream;
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+
+header h2 {
+    text-indent: 0em;
+    font-size: 170%;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+header h3 {
+
+    font-size: 130%;
+    font-style: italic;
+    text-align: left;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+main h1 {
+    text-indent: 0em;
+    font-size: 150%;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+main h2 {
+    font-size: 130%;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+main h4 {
+    font-size: 130%;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+}
+
+a:hover, a:focus {
+    font-style: italic;
+}
+
+main h3 {
+    font-size: 105%;
+    color: darkblue;
+    text-shadow: 3px 4px 6px lightblue;
+    background-color: mintcream;
+}
+
+a:hover, a:focus {
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+
+}
+
+/* the styles for the header */
+header img {
+    float: left;
+}
+
+/* the styles for the section */
+main {
+    clear: left;
+    background-color: mintcream;
+}
+a:hover, a:focus {
+    font-style: italic;
+}
+
+
+.shadow{
+    text-shadow: 3px 4px 6px mintcream;
+}
+
+/* the styles for the footer */

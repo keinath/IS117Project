@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Keinath Amin, IS117-041, Summer 2019 --!>
+<head>
+    <meta charset="UTF-8">
+    <title>Our Story</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slicknav.css">
+    <link rel="stylesheet" href="events.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<header>
+    <img src="bigstock-Vector-Logo-Design-Template-Wi-119284142.jpg" alt="Charity Logo" height="150">
+    <center><h1>Our Story</h1></center>
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<style>
+    .navbar {
+        overflow: hidden;
+        background-color: teal;
+        font-family: "Times New Roman";
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+        background-color: teal;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: teal;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px teal;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .show {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="commitments.html">Commitments</a>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">About Us
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="ourstory.html">Our Story</a>
+            <a href="references.html">References</a>
+        </div>
+    </div>
+    <a href="contactus.html">Contact Us</a>
+</div>
+
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+            }
+        }
+    }
+</script>
+
+<br>
+<br>
+<br>
+
+<center><body>
+<h3>
+    <img src="ronald-reagan.jpg" alt="Charity Quote">
+</h3></center>
+
+<p>
+    Often individuals wish to help others in need, but don't know where to begin. This site is an introductory page with some of the popular non-profit events for NY/NJ natives.
+    <br>
+    <br>
+    Individuals will be able to see which events are being held and where they are being held. They can also be in contact with the non-profit groups of the month and be contacted by the creator of the site for new and updated events.
+    <br>
+    <br>
+<center><i>“Giving is not just about making a Donation, it’s about making a Difference” - Kathy Calvin </i></center>
+</p>
+
+
+</body>
+
+<center><footer>
+    <br>
+    <br>
+    <br>
+    <p>&copy; 2019, Keinath Amin --------- Terms of Service --------- Privacy Policy, NJIT </p>
+</footer></center>
+
+</html>
